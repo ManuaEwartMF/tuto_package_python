@@ -15,6 +15,21 @@ dependencies=[
             ]
 ```
 
+If you wish to publish these packages with several configurations on PyPI,
+you can also indicate optional dependencies by adding the following lines:
+
+```
+[project.optional-dependencies]
+efficient = ["numpy", "scipy"]
+graphics = ["tkinter"]
+```
+
+When downloading the package with pip it will now be possible to specify
+which configuration you wish to install using brackets:
+```
+pip install calculator[efficient]  <- Will also install numpy and scipy
+```
+
 As for the version number, we must re-install the package to
 take this modification into account:
 `pip uninstall calculator; pip install -e .`.
