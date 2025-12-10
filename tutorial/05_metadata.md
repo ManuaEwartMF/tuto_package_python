@@ -76,5 +76,5 @@ Other metadata can be provided, here are some examples:
 # What next #
 
 Don't forget to commit the modifications.
-In the [Next](06_dependency) part of the tutorial, we will show how to add
+In the [next](06_dependency.md) part of the tutorial, we will show how to add
 dependency information to the `pyproject.toml` file.
