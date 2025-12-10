@@ -27,10 +27,10 @@ we have a true package, we can install it; we just need to inform
    ]
    description = "Extreme calculator"
    version = '0.0.0'
-  ```
-  In a normal use case, your project name is the same as the directory created in
-  the `src` directory (`calculator`). Here we choose a different name to allow
-  every one to push the same package on PyPI.
+   ```
+   In a normal use case, your project name is the same as the directory created in
+   the `src` directory (`calculator`). Here we choose a different name to allow
+   every one to push the same package on PyPI.
  - In `WORKDIR`, create a virtual environment and activate it
    (`python3 -m venv calcenv; . calcenv/bin/activate`)
  - From `WORKDIR/calculator`, install the package with
